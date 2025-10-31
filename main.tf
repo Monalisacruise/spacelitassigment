@@ -50,7 +50,7 @@ resource "aws_route_table_association" "public_assoc" {
 }
  
 resource "aws_s3_bucket" "terraform_bucket" {
-  bucket        = "terraform-demo-bucket-assignment2"
+  bucket        = "terraform-demo-bucket-monalisa-00138"
   force_destroy = true
  
   tags = {
